@@ -6,7 +6,7 @@ public class startWindow {
         try {
             (new mainWindow()).start();
         } catch (HeadlessException headlessException) {
-            System.out.println("Operating System Graphic Ennvironment (window system) not detected.");
+            System.out.println("Operating System Graphic Environment (window system) not detected.");
         } catch (Exception exceptionValue) {
             System.out.println("An unexpected exception has been launched.");
             System.out.println("Message: " + exceptionValue.getMessage() + "\n\n");

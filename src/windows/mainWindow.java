@@ -30,6 +30,7 @@ public class mainWindow extends JFrame implements ActionListener
     private JMenuItem menuConfiguration;
     private JMenuItem menuHelp;
     private JMenuItem menuItemExit;
+    private ConfigurationMenu configMenu;
 
     //calling functions when a menu item is pressed
     @Override
@@ -155,6 +156,10 @@ public class mainWindow extends JFrame implements ActionListener
         menuBar.add(menuFile);
         this.menuBar.setBackground(Color.decode("#455644"));
         this.setJMenuBar(menuBar);
+
+        //add the configuration menu
+        configMenu = new ConfigurationMenu(mainPanel);
+        menuBar.add(configMenu.getMenu());
 
         //configuring the status panel
         this.statusPanel = new JPanel();
