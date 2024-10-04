@@ -5,13 +5,8 @@ import java.awt.HeadlessException;
 import java.awt.Toolkit;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
-import javax.swing.JFrame;
-import javax.swing.JLabel;
-import javax.swing.JMenu;
-import javax.swing.JMenuBar;
-import javax.swing.JMenuItem;
-import javax.swing.JPanel;
-import javax.swing.WindowConstants;
+import javax.swing.*;
+
 public class mainWindow extends JFrame implements ActionListener
 {
     private static final long serialVersionUID = 1L;
@@ -157,6 +152,10 @@ public class mainWindow extends JFrame implements ActionListener
         this.menuBar.setBackground(Color.decode("#455644"));
         this.setJMenuBar(menuBar);
 
+        //add the animated shape panel
+        AnimatedShapePanel animatedPanel = new AnimatedShapePanel();
+        this.add(animatedPanel);
+
         //add the configuration menu
         configMenu = new ConfigurationMenu(mainPanel);
         menuBar.add(configMenu.getMenu());
@@ -170,6 +169,8 @@ public class mainWindow extends JFrame implements ActionListener
         this.statusPanel.setBorder(null);
         this.add(statusPanel, BorderLayout.SOUTH);
         this.setStatus(this.getClass().getCanonicalName());
+
+
 
         this.setVisible(true);
 

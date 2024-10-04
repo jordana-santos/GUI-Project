@@ -1,48 +1,42 @@
 package windows;
 
-import java.awt.Color;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import javax.swing.JMenu;
-import javax.swing.JMenuItem;
-import javax.swing.JPanel;
-import javax.swing.JColorChooser;
+import javax.swing.*;
+import java.awt.*;
+import java.awt.event.*;
 
 public class ConfigurationMenu implements ActionListener {
     private JMenu menuConfiguration;
     private JMenuItem menuColorChange;
     private JPanel mainPanel;
+    private AnimatedShapePanel animatedPanel = new AnimatedShapePanel();
+
 
     public ConfigurationMenu(JPanel mainPanel) {
         this.mainPanel = mainPanel;
-
         menuConfiguration = new JMenu("Configuration");
 
-        // creates the menu item to change the background color
+        // creates the menu item to change the shape color
         menuColorChange = new JMenuItem("Change Color");
         menuColorChange.addActionListener(this);
-
         menuConfiguration.add(menuColorChange);
     }
 
-    // return the menuCoonfiguration to be used in mainWindow
+    // return the menuConfiguration to be used in mainWindow
     public JMenu getMenu() {
         return menuConfiguration;
     }
 
-    private void changeBackgroundColor() {
-        // the color selector page
-        Color newColor = JColorChooser.showDialog(null, "Choose Background Color", mainPanel.getBackground());
-
+    private void changeShapeColor(){
+        Color newColor = JColorChooser.showDialog(null, "Choose Shape Color", animatedPanel.getShapeColor());
         if (newColor != null) {
-            mainPanel.setBackground(newColor);
+            animatedPanel.setShapeColor(newColor);
         }
     }
 
     @Override
     public void actionPerformed(ActionEvent e) {
         if (e.getSource() == menuColorChange) {
-            changeBackgroundColor();
+            changeShapeColor();
         }
     }
 }
