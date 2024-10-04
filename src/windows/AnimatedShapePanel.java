@@ -10,7 +10,7 @@ public class AnimatedShapePanel extends JPanel{
     private int xSpeed = 5, ySpeed = 5;
     private int width = 20, height = 20;
     private Timer timer;
-    protected Color shapeColor = Color.RED;
+    private Color shapeColor = Color.RED;
 
     public AnimatedShapePanel(){
         //setting up the timer to update the animation every 50ms
@@ -51,6 +51,9 @@ public class AnimatedShapePanel extends JPanel{
     //setter
     public void setShapeColor(Color newColor){
         this.shapeColor = newColor;
+        setForeground(newColor);
+        System.out.println("Color: " +  getForeground());
+
         repaint();
     }
 
