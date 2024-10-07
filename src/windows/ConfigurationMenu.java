@@ -9,6 +9,7 @@ public class ConfigurationMenu implements ActionListener {
     private JMenuItem menuColorChange;
     private JPanel mainPanel;
     private AnimatedShapePanel animatedPanel = new AnimatedShapePanel();
+    private JMenuItem menuSpeedChange;
 
 
     public ConfigurationMenu(JPanel mainPanel) {
@@ -19,6 +20,11 @@ public class ConfigurationMenu implements ActionListener {
         menuColorChange = new JMenuItem("Change Color");
         menuColorChange.addActionListener(this);
         menuConfiguration.add(menuColorChange);
+
+        // creates the menu item to change the shape speed
+        menuSpeedChange = new JMenuItem("Change Speed");
+        menuSpeedChange.addActionListener(this);
+        menuConfiguration.add(menuSpeedChange);
     }
 
     // return the menuConfiguration to be used in mainWindow
@@ -33,10 +39,18 @@ public class ConfigurationMenu implements ActionListener {
         }
     }
 
+    private void changeShapeSpeed(){
+        animatedPanel.setxSpeed(animatedPanel.getxSpeed() + 2);
+        animatedPanel.setySpeed(animatedPanel.getySpeed() + 2);
+    }
+
     @Override
     public void actionPerformed(ActionEvent e) {
         if (e.getSource() == menuColorChange) {
             changeShapeColor();
+        }
+        if (e.getSource() == menuSpeedChange) {
+            changeShapeSpeed();
         }
     }
 }

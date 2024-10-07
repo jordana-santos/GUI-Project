@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9aad7361-e8d6-4e3b-9e4f-770e99f9c7d3" name="Changes" comment="animated shape created">
+    <list default="true" id="9aad7361-e8d6-4e3b-9e4f-770e99f9c7d3" name="Changes" comment="bug em mudar a cor">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/windows/AnimatedShapePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/windows/AnimatedShapePanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/windows/ConfigurationMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/windows/ConfigurationMenu.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -82,7 +83,8 @@
       <updated>1727963444989</updated>
       <workItem from="1727963446040" duration="6082000" />
       <workItem from="1728045847777" duration="8055000" />
-      <workItem from="1728062707584" duration="366000" />
+      <workItem from="1728062707584" duration="2545000" />
+      <workItem from="1728238005012" duration="1703000" />
     </task>
     <task id="LOCAL-00001" summary="janela inicial">
       <option name="closed" value="true" />
@@ -116,7 +118,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728053926861</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="bug em mudar a cor">
+      <option name="closed" value="true" />
+      <created>1728070293064</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1728070293064</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -138,6 +148,7 @@
     <MESSAGE value="configuration menu setup" />
     <MESSAGE value="commit of workspace.xml" />
     <MESSAGE value="animated shape created" />
-    <option name="LAST_COMMIT_MESSAGE" value="animated shape created" />
+    <MESSAGE value="bug em mudar a cor" />
+    <option name="LAST_COMMIT_MESSAGE" value="bug em mudar a cor" />
   </component>
 </project>

@@ -45,16 +45,17 @@ public class AnimatedShapePanel extends JPanel{
         repaint();
     }
 
-    //getter
+    //getters
     public Color getShapeColor(){ return shapeColor; }
+    public int getxSpeed(){ return xSpeed; }
+    public int getySpeed(){ return ySpeed; }
 
     //setter
     public void setShapeColor(Color newColor){
         this.shapeColor = newColor;
-        setForeground(newColor);
-        System.out.println("Color: " +  getForeground());
-
         repaint();
     }
+    public void setxSpeed(int newxSpeed){ this.xSpeed = newxSpeed; }
+    public void setySpeed(int newySpeed){ this.ySpeed = newySpeed; }
 
 }
