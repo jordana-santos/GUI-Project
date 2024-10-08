@@ -1,6 +1,9 @@
 package windows;
 import java.awt.HeadlessException;
 public class startWindow {
+    /**
+     * @param args
+     */
     public static void main(String[] args) {
         System.out.println("Simple Windows Sample Running ...");
         try {

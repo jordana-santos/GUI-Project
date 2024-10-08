@@ -4,10 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9aad7361-e8d6-4e3b-9e4f-770e99f9c7d3" name="Changes" comment="bug em mudar a cor">
+    <list default="true" id="9aad7361-e8d6-4e3b-9e4f-770e99f9c7d3" name="Changes" comment="menuItem to change the speed">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/windows/AnimatedShapePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/windows/AnimatedShapePanel.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/windows/ConfigurationMenu.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/windows/ConfigurationMenu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/windows/mainWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/windows/mainWindow.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/windows/startWindow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/windows/startWindow.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +59,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/jorda/OneDrive/Área de Trabalho/GUI-Project iml&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -84,7 +87,11 @@
       <workItem from="1727963446040" duration="6082000" />
       <workItem from="1728045847777" duration="8055000" />
       <workItem from="1728062707584" duration="2545000" />
-      <workItem from="1728238005012" duration="1703000" />
+      <workItem from="1728238005012" duration="1924000" />
+      <workItem from="1728302513693" duration="6355000" />
+      <workItem from="1728321809789" duration="2509000" />
+      <workItem from="1728347546649" duration="270000" />
+      <workItem from="1728347910795" duration="3136000" />
     </task>
     <task id="LOCAL-00001" summary="janela inicial">
       <option name="closed" value="true" />
@@ -126,7 +133,15 @@
       <option name="project" value="LOCAL" />
       <updated>1728070293064</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="menuItem to change the speed">
+      <option name="closed" value="true" />
+      <created>1728261099519</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1728261099519</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -149,6 +164,18 @@
     <MESSAGE value="commit of workspace.xml" />
     <MESSAGE value="animated shape created" />
     <MESSAGE value="bug em mudar a cor" />
-    <option name="LAST_COMMIT_MESSAGE" value="bug em mudar a cor" />
+    <MESSAGE value="menuItem to change the speed" />
+    <option name="LAST_COMMIT_MESSAGE" value="menuItem to change the speed" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/windows/ConfigurationMenu.java</url>
+          <line>72</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
