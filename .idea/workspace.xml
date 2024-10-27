@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9aad7361-e8d6-4e3b-9e4f-770e99f9c7d3" name="Changes" comment="finalizacao" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;jordana-santos&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/jordana-santos/GUI-Project.git&quot;,
+    &quot;accountId&quot;: &quot;ccb388cb-6f49-406f-aee8-5e9bba264fdf&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
+  <component name="ProjectId" id="2mviRVdNrZhtkTwlEZUdcz5mw4p" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.startWindow.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/jorda/OneDrive/Área de Trabalho/unicamp/POO II/lab3",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-b114ca120d71-intellij.indexing.shared.core-IU-242.21829.142" />
+        <option value="bundled-js-predefined-d6986cc7102b-7c0b70fcd90d-JavaScript-IU-242.21829.142" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9aad7361-e8d6-4e3b-9e4f-770e99f9c7d3" name="Changes" comment="" />
+      <created>1727963444989</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1727963444989</updated>
+      <workItem from="1727963446040" duration="6082000" />
+      <workItem from="1728045847777" duration="8055000" />
+      <workItem from="1728062707584" duration="2545000" />
+      <workItem from="1728238005012" duration="1924000" />
+      <workItem from="1728302513693" duration="6355000" />
+      <workItem from="1728321809789" duration="2509000" />
+      <workItem from="1728347546649" duration="270000" />
+      <workItem from="1728347910795" duration="4721000" />
+      <workItem from="1728911151953" duration="84000" />
+      <workItem from="1729986742804" duration="647000" />
+      <workItem from="1729987404491" duration="322000" />
+    </task>
+    <task id="LOCAL-00001" summary="janela inicial">
+      <option name="closed" value="true" />
+      <created>1727963678712</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1727963678712</updated>
+    </task>
+    <task id="LOCAL-00002" summary="configuration menu setup">
+      <option name="closed" value="true" />
+      <created>1727971344276</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1727971344276</updated>
+    </task>
+    <task id="LOCAL-00003" summary="commit of workspace.xml">
+      <option name="closed" value="true" />
+      <created>1727971762371</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1727971762371</updated>
+    </task>
+    <task id="LOCAL-00004" summary="animated shape created">
+      <option name="closed" value="true" />
+      <created>1728053926861</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1728053926861</updated>
+    </task>
+    <task id="LOCAL-00005" summary="bug em mudar a cor">
+      <option name="closed" value="true" />
+      <created>1728070293064</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1728070293064</updated>
+    </task>
+    <task id="LOCAL-00006" summary="menuItem to change the speed">
+      <option name="closed" value="true" />
+      <created>1728261099519</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1728261099519</updated>
+    </task>
+    <task id="LOCAL-00007" summary="finalizacao">
+      <option name="closed" value="true" />
+      <created>1728351222694</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1728351222694</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="temp-branch" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="janela inicial" />
+    <MESSAGE value="configuration menu setup" />
+    <MESSAGE value="commit of workspace.xml" />
+    <MESSAGE value="animated shape created" />
+    <MESSAGE value="bug em mudar a cor" />
+    <MESSAGE value="menuItem to change the speed" />
+    <MESSAGE value="finalizacao" />
+    <option name="LAST_COMMIT_MESSAGE" value="finalizacao" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/windows/ConfigurationMenu.java</url>
+          <line>72</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
